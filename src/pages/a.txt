@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS contact;
+CREATE TABLE IF NOT EXISTS contact (
+ id SERIAL PRIMARY KEY,
+ nom varchar(50) NOT NULL,
+ prenom varchar(50) NOT NULL,
+ adresse varchar(50) NOT NULL,
+ classe char(10) NOT NULL
+);
+
+
+INSERT INTO contact (nom, prenom, adresse, classe) VALUES
+('Balin', 'Roger', 'Nancy', '1'),
+('Dupont', 'Henri', 'Thionville', '1'),
+('Robinot', 'Martin', 'Lyon', '2'),
+('Riper', 'Bernard', 'Reims', '1'),
+('Martinez', 'Laure', 'Rouen', '2');
+
+herokuap.airsearch/getContacts

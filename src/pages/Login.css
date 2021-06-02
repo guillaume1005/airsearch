@@ -1,0 +1,59 @@
+.login__body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.login__body__inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+.login__body__inside__inputs {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 15vw;
+    margin: 0 auto; /*trick to make it horizontally centered */
+    margin-top: 40px;
+    max-width: 560px;
+
+}
+
+.login__body__inside__inputs > input {
+    flex: 1; /* majority of space inside of it */
+    padding: 10px 20px; /* make it big inside */
+    font-size: medium;
+    border: none;
+}
+
+.login__body__inside__inputs > input:focus {
+    outline-width: 0;
+}
+
+.login__logo {
+    object-fit: contain;
+    height: 65px;
+    margin-right: 50px;
+}
+
+.search__buttonsHidden {
+ 
+    color:red;
+}
